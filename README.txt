@@ -7,6 +7,7 @@ For this exercise,
 3. In this project, I used Selenium, Cucumber,and Junit for assertions.
 4. I created one test scenario in a feature file located at src/test/resources/Features.
 4. To trigger the automation, I created the CucumberRunner class in the runners package. Please find the CucumberRunner class inside  runners package and run the class to start test execution.
+5. Please also go to the "FindFakeGoldPage" located at src/test/java/com/automation/pages/FindFakeGoldPage.java to see the code implementations for the automation.   
 
 Exercise Approach Explanation:
 
