@@ -12,7 +12,7 @@ For this exercise,
 Exercise Approach Explanation:
 
 I started by placing the first element(0) in the left box and then compared this one with all the other numbers one by one through a for-loop. So, my approach was to use the first element as a basis to compare as exact weights were not given.
-To reduce test execution time, I put "break" keyword in the loop to terminate it as soon as the fake gold bar number is found. After this, I looked at the operator in the result to find out which one is less or more because 0 could be the fake one as well. That is why I used ternary to find out if the element in the right or left box is the fake one based on the operator in the result box.
+To reduce test execution time, I put "break" keyword in the loop to terminate it as soon as the fake gold bar number is found. After this, I looked at the operator in the result to find out if 0 is less or more than the number on the right because 0 could be the fake one as well. Then, I used ternary as a final step to determine the fake gold bar number based on operator seen in the last weighing.
 
 
 How to run the test:
