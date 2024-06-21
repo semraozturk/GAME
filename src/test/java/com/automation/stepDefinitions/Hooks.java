@@ -4,6 +4,7 @@ import com.automation.utilities.ConfigurationReader;
 import com.automation.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import java.util.Arrays;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ImpersonatedCredentials;
@@ -28,7 +29,7 @@ public class Hooks {
         String scope = "https://www.googleapis.com/auth/cloud-platform";
 
         // The name of the privilege-bearing service account for whom the credential is created.
-        String impersonatedServiceAccount = "test-service-account@imposing-timer-420716.iam.gserviceaccount.com";
+        String impersonatedServiceAccount = "automation@imposing-timer-420716.iam.gserviceaccount.com";
 
             // Construct the GoogleCredentials object which obtains the default configuration from your
             // working environment.
